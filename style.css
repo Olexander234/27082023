@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background: var(--base-bg-dark, #052825);
+}
+
+.main-hero2 {
+  height: 100vh;
+  width: 100%;
+  background: var(--base-bg-dark, #052825);
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.main-frame1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  height: 549px;
+  margin: 0 auto;
+  background: var(--base-bg-dark, #052825);
+  margin: 140px 120px 145px 120px;
+}
+.main-frame1__group-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 635px;
+  height: 549px;
+}
+.main-frame1__group-left-text {
+  width: 635px;
+  color: var(--base-text-on-dark, #FFF);
+  font-feature-settings: "clig" off, "liga" off;
+  float: none;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: -1.16px;
+  text-transform: capitalize;
+  padding: 5px 105px 20px 0px;
+}
+.main-frame1__group-left-text2 {
+  width: 468px;
+  color: var(--base-text-on-dark, #FFF);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+}
+.main-frame1__group-left-text3 {
+  width: 250px;
+  color: var(--base-text-on-dark, #FFF);
+  display: inline;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.29px;
+  padding: 20px 0px 0px 0px;
+}
+.main-frame1__group-left-bt {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 20px;
+}
+.main-frame1__group-left-bt1 {
+  display: inline-flex;
+  padding: 15px 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 1px;
+  background: var(--global-primary, #2E4FD7);
+  color: var(--base-text-on-dark, #FFF);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.29px;
+}
+.main-frame1__group-left-logos {
+  width: 403.706px;
+  height: 31px;
+  flex-shrink: 0;
+  padding: 40px 0px 0px 0px;
+}
+.main-frame1__group-left-logos-img {
+  margin-right: 10px;
+}
+.main-frame1__group-right {
+  width: 460px;
+  height: 548.807px;
+  border-radius: 3px;
+  background: url(<path-to-image>), lightgray 50%/cover no-repeat;
+}/*# sourceMappingURL=style.css.map */
